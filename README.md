@@ -1,16 +1,18 @@
 # flutter_car_3d
 
-A new Flutter project.
+This is a project made in flutter that demostrates 3D capabilites of flutter
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Flutter was able to handle AAA Game 3D models, no lags on my hp :
 
-A few resources to get you started if this is your first Flutter project:
+CPU : i3-6006U CPU @2.00 GHz
+RAM : 8 Gb
+SSD : 512 Gb
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+This project was made completely on flutter.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Steps :
+- Convert all your 3D objects into mesh and set origin to geometry.
+- Dependencies : model_viewer_plus
+- Using ModelViewer, i set a glb model as well as an hdri file for background.
